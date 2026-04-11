@@ -1,4 +1,5 @@
 clear,clc
+addpath('..\Core');
 %% 仿真参数
 dt = 1e-4;
 Ts = 0.02;
