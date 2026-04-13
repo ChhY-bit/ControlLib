@@ -45,7 +45,7 @@ classdef LinearDOB < handle
             %       不具备全局存储功能，需外界记录状态
             if nargin < 4
                 Bd = eye(size(A,1));        % 缺省值为单位矩阵
-                x_ini = zeros(size(A,1));   % 缺省值为零初状态
+                x_ini = zeros(size(A,1),1);   % 缺省值为零初状态
             end
             % 初始化：
             obj.Ts = Ts;
